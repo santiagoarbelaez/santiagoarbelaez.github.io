@@ -1,42 +1,70 @@
+/* Space Grotesk Font */
+@font-face {
+   font-family: 'Space Grotesk';
+   src: url(SpaceGrotesk-Light.woff) format('woff');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'Space Grotesk';
+   src: url(SpaceGrotesk-Regular.woff)format('woff');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'Space Grotesk';
+   src: url(SpaceGrotesk-Medium.woff)format('woff');
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'Space Grotesk';
+   src: url(SpaceGrotesk-SemiBold.woff) format('woff');
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'Space Grotesk';
+   src: url(SpaceGrotesk-Bold.woff) format('woff');
+   font-weight: 700;
+}
 * {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  font-feature-settings: 'ss02' on, 'ss05' on;
 }
 body {
   margin: 0 0.5em 0 0.5em;
 }
 .masonry { /* Mosaic grid */
   column-count: 2;
-  column-gap: 1em;
+  column-gap: 1rem;
   margin: auto;
 }
 .masonry-brick { /* Project cards */
   background-color: #ececec;
   display: inline-block;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5rem 0 0.5rem 0;
   width: 100%;
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
 }
 .masonry-brick:hover {
-  -webkit-box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.4);
 }
 .card {
-  padding: 1.25em;
+  padding: 1.25rem;
 }
 .category {
-  margin: 0px 0 8px 0;
-  font-weight: bold;
-  font-size: 1.25em;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 .rectangle {
-  width: 2em;
-  height: 0.25em;
+  margin: 0 0 0.5rem 0;
+  width: 2rem;
+  height: 0.25rem;
 }
 .content {
-  margin: 0px 0 8px 0;
-  font-weight: normal;
-  font-size: 1.75em;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.75rem;
 }
 img.thumnail {
   display: block;
