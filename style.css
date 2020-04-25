@@ -52,14 +52,9 @@ body {
   padding: 1.25rem;
 }
 .category {
-  margin: 0 0 0.5rem 0;
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-.rectangle {
-  margin: 0 0 0.5rem 0;
-  width: 2rem;
-  height: 0.25rem;
+  margin: 0 0 1.25rem 0;
+  font-weight: 500;
+  font-size: 1.375rem;
 }
 .content {
   margin: 0;
